@@ -1,0 +1,415 @@
+
+  /* <<<<<<<<<<<<<<<<< NAVBAR>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.linkprnt{
+    
+    display: flex;
+    flex-direction: column;
+    margin:40px;
+    gap: 20px;
+}
+#navbar{
+    margin-left:40px;
+    margin-right: 40px;
+    display: flex;
+    border-radius: 10px;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    border: 1px solid rgb(221, 221, 219);
+    border-bottom: 5px solid rgb(213, 214, 212);
+    
+    /* background-color:rgb(23, 23, 11); */
+    padding: 10px;
+    padding-bottom: 20px;
+}
+#siren ,#the{
+    
+    font: 50px bolder ;
+color: white;
+background-color: black;
+padding: 2px;
+}
+#the{
+    font: 30px bolder ;
+    margin-right: 10px;
+    /* transform: matrix(0, -1, 1, 0, 0, 0); */
+} 
+a{
+    text-decoration: none;
+    font: 40px bolder;
+    color: black;
+}
+a:hover{
+    /* border-bottom: 2px solid rgb(48, 161, 33); */
+    text-decoration: underline;
+    border-radius: 10px;
+    color: rgb(28, 102, 239);
+}
+
+#menu_list{
+    display: none;
+   
+}
+#menu_button{
+    display: none;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<HOME>>>>>>>>>>>>>>>>>>>>>>>> */
+ 
+ #home{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 100px;
+ }
+.home_container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#hm_cnt2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.box{
+    border: 2px solod black;
+    border-radius: 10px;
+    background-color: rgb(178, 178, 188);
+     height: 245px;
+     width: 30vw;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.box1{
+    background-image: url('https://images.hindustantimes.com/img/2022/04/01/550x309/RRR-Movie-Review_1648825470847_1648825479894.jpg');
+    
+    height: 500px;
+    width: 55vw;
+}
+.box2{
+    background-image: url('https://gmo-research.com/application/files/5716/6080/5815/Quantum_Computing_Image.png');
+}
+.box3{
+    background-image: url('https://apollohealthlib.blob.core.windows.net/health-library/2021/04/shutterstock_788590396-scaled.jpg');
+}
+
+.home_latest{
+    margin: 30px;
+    display: flex;
+    /* gap: 100px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hm{
+    margin-left: 65px;
+}
+.hm_last{
+    background-color: rgb(239, 241, 241);
+    padding: 10px;
+    border-radius: 5px;
+}
+.home_display_card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 5px solid rgb(187, 187, 185);
+    /* align-items: center; */
+    /* gap: 100px; */
+    padding-bottom: 20px;
+}
+.home_display_card:hover{
+    background-color: rgb(241, 231, 214);
+}
+.topic_heading{
+    text-align: left;
+    border-bottom:2px solid orange ;
+    width:max-content;
+}
+.image_box{
+    /* width:400px ; */
+    width: 25vw;
+    height: 15rem;
+    border-radius: 10px;
+}
+.card_parent{
+    /* margin-left:60px; */
+    /* margin-right: 60px; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    /* border: 2px solid green; */
+    padding-bottom: 100px;
+}
+.card_container1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.display_card{
+    display: flex;
+    gap: 10px;
+border-bottom: 3px solid rgb(226, 223, 223);
+padding-bottom: 50px;
+}
+
+.display_card:hover{
+    background-color: rgb(241, 231, 214);
+}
+.post_disp_crd{
+     display: flex;
+    gap: 10px;
+border-bottom: 3px solid rgb(211, 208, 208);
+padding-bottom: 105px;
+}
+.post_disp_crd:hover{
+    background-color: blanchedalmond;
+}
+/* .card_image{ */
+    /* width:400px; */
+    /* width: 25vw; */
+   
+   /* } */
+   .card_content{
+    /* width:400px; */
+    width: 25vw;
+    text-align: left;
+   }
+   .post_container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   }
+   
+   .post_image{
+    /* width:200px ; */
+    width: 15vw;
+    height: 22vh;
+    border-radius: 10px;
+}
+   .post_content{
+    /* width:200px */
+    width: 15vw;
+    text-align: left;
+   }
+   .advertisement{
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   }
+   ul{
+    list-style-type: none;
+   
+}
+   /* ################# DYNAMIC ##########33 */
+   #get_start{
+    border: 2px solid green;
+    color: green;
+    font-weight:  bold;
+    height: 50px;
+    width: 200px;
+   }
+   header{
+    margin: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(229, 225, 225);
+    border-bottom:5px solid rgb(175, 174, 174) ;
+   }
+   .footer{
+    margin: 20px;
+    padding-top: 30px;
+    color: white;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+   }
+   .footer h2{
+    text-decoration: underline;
+    color: black;
+   }
+  
+   #intro{
+    text-align: left;
+    width: 400px;
+   }
+  
+   .link{
+    font-size:large;
+    color: rgb(246, 241, 241);
+   }
+   .dynamic_comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   }
+   .userIcon{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba(234, 229, 229, 0.826);
+    border-bottom: 4px solid rgb(231, 228, 228) ;
+   }
+   .more_from{
+    justify-content: space-around;
+   }
+   .dynamic_content{
+    width:500px;
+    text-align: left;
+   }
+@media screen and (min-width:300px) and (max-width:820px) {
+    #home{
+        justify-content: center;
+        align-items: center;
+        width: 98vw;
+    }
+    .linkprnt{
+        margin: 0px;
+        /* margin-top: 10px; */
+        padding: 10px;
+    }
+    #tittle{
+        justify-content: space-around;
+        width: 95vw;
+        gap: 20px;
+    }
+    #menu_button{
+        display: block;
+        margin-top: 10px;
+        float: right;
+        background-image: url('./images.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 8px;
+        width: 40px;
+        height: 30px;
+        /* margin-right: -20px; */
+    }
+    header{
+        gap: 30vw;
+       margin: 5px;
+    }
+    #socialTemp{
+        width: 90vw;
+    }
+    .footer{
+        margin-top: 20px;
+        margin-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+    }
+    #footerSocial{
+       height: 70px;
+       margin-left: 20px;
+    }
+    #the{
+        margin-left: 10vw;
+    }
+    h5{
+        
+        width:90vw;
+       padding: 20px;
+        text-align:left ;
+    }
+    #intro{
+        width: 95vw;
+    }
+    li{
+        text-decoration: none;
+       }
+    #dynamic_img{
+        width: 90vw;
+    }
+    .dynamic_content{
+        width: 90vw;
+    }
+    
+    ul{
+        list-style-type: none;
+       
+    }
+    li{
+        border-bottom: 2px solid black;
+    }
+    #navbar{
+    display: none;
+   
+    }
+    .home_container{
+        flex-direction: column; 
+        /* justify-content: center; */
+        align-items: center;
+        margin-left: 30px;
+    }
+    .hm{
+        margin-left: 30px;
+    }
+    .home_latest{
+        margin-left: 30px;
+        gap: 20px;
+    }
+    .box{
+        width: 95vw;
+        height: 300px;
+        background-size: cover;
+    }
+    .card_parent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 94vw;
+        
+    }
+
+    .display_card{
+        flex-direction: column;
+    }
+.post_container{
+    width: 95vw;
+}
+    .post_disp_crd{
+        display: flex;
+    flex-direction:row ;
+    }
+    .image_box{
+        width: 95vw;
+        height: 50vh;
+    }
+    .card_content{
+        width: 95vw; 
+    }
+    .post_image{
+    width: 37vw;
+    height: 27vh;
+    }
+    .post_content{
+     width: 70vw;
+    }
+     .advertisement{
+    width: 70vw;
+    height: 70vh;
+    border: 2px solid black;
+    margin: 40px;
+   }
+}
+
