@@ -260,7 +260,7 @@ padding-bottom: 105px;
    #shareIcon{
     position:fixed;
     top: 55vh;
-    left: 300px;
+    left: 10vw;
     z-index: -1;
    }
    .dynamic_comp{
