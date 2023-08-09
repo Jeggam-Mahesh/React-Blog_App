@@ -116,13 +116,13 @@ a:hover{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    border-bottom: 5px solid rgb(187, 187, 185);
+    border-bottom: 3px solid rgb(225, 225, 222);
     /* align-items: center; */
     /* gap: 100px; */
     padding-bottom: 20px;
 }
 .home_display_card:hover{
-    background-color: rgb(241, 231, 214);
+    background-color: rgb(223, 243, 251);
 }
 .topic_heading{
     text-align: left;
@@ -159,7 +159,7 @@ padding-bottom: 50px;
 }
 
 .display_card:hover{
-    background-color: rgb(241, 231, 214);
+    background-color: rgb(223, 243, 251);
 }
 .post_disp_crd{
      display: flex;
@@ -168,7 +168,7 @@ border-bottom: 3px solid rgb(211, 208, 208);
 padding-bottom: 105px;
 }
 .post_disp_crd:hover{
-    background-color: blanchedalmond;
+    background-color: rgb(223, 243, 251);
 }
 /* .card_image{ */
     /* width:400px; */
@@ -179,7 +179,9 @@ padding-bottom: 105px;
     /* width:400px; */
     width: 25vw;
     text-align: left;
+   
    }
+   
    .post_container{
     display: flex;
     flex-direction: column;
@@ -201,9 +203,9 @@ padding-bottom: 105px;
     width: 400px;
     height: 600px;
     border: 2px solid black;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    display: flex;
+    display: flex; */
    }
    ul{
     list-style-type: none;
@@ -219,6 +221,8 @@ padding-bottom: 105px;
    }
    header{
     margin: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -227,13 +231,15 @@ padding-bottom: 105px;
    }
    .footer{
     margin: 20px;
+    margin-top: 4px;
     padding-top: 30px;
     color: white;
     background-color: darkslategray;
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
-
+    position: relative;
+    z-index: 5;
     border-radius: 10px;
    }
    .footer h2{
@@ -250,25 +256,70 @@ padding-bottom: 105px;
     font-size:large;
     color: rgb(246, 241, 241);
    }
+   
+   #shareIcon{
+    position:fixed;
+    top: 55vh;
+    left: 300px;
+    z-index: -1;
+   }
    .dynamic_comp{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+  
    }
    .userIcon{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
     border: 1px solid rgba(234, 229, 229, 0.826);
-    border-bottom: 4px solid rgb(231, 228, 228) ;
+    /* border-bottom: 4px solid rgb(231, 228, 228) ; */
+   
+   }
+   .down{
+    width: 25vw;
+    flex-wrap: wrap;
+    margin-top: 10px;
+   }
+   .icon2{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -17vw;
+   }
+   .more{
+    margin-left: -13vw;
+   }
+   .clap1{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+   }
+   .clap2{
+    margin-left: -20vw;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
    }
    .more_from{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    background-color: white;
+   }
+   .backgrd{
+    background-color: white;
+   /* width: 50vw; */
    }
    .dynamic_content{
     width:500px;
@@ -358,7 +409,7 @@ padding-bottom: 105px;
         flex-direction: column; 
         /* justify-content: center; */
         align-items: center;
-        margin-left: 30px;
+        margin-left: 15px;
     }
     .hm{
         margin-left: 30px;
@@ -377,7 +428,7 @@ padding-bottom: 105px;
         justify-content: center;
         align-items: center;
         padding: 10px;
-        width: 94vw;
+        width: 97vw;
         
     }
 
@@ -410,6 +461,13 @@ padding-bottom: 105px;
     height: 70vh;
     border: 2px solid black;
     margin: 40px;
+   }
+   .Adds{
+    width: 70vw;
+    height: 70vh;
+   }
+   #shareIcon{
+    display: none;
    }
 }
 
