@@ -7,8 +7,11 @@ import socialMediaIcon2 from '../assets/socialMediaIcon2.png'
 import {Store} from "../DataStore";
 import { useContext } from "react";
 import { useLocation } from "react-router-dom";
+// import { useEffect } from "react";
 const DynamicComp=()=>{
-    
+    React.useEffect(()=>{
+        window.scrollTo(0,0);
+    },[]);
    const data=useContext(Store)
    console.log("storedata",data)
    const id_value=useLocation().state.index;
@@ -66,7 +69,12 @@ const DynamicComp=()=>{
         <div className="more_from">
         
             {
-                data[0].filter((item)=>item.category===updatedData[0].category&&((item.id)%4===0) )
+                data[0].filter((item)=>{
+                    if((updatedData[0].category!=='technology')&&(updatedData[0].category!=='fitness'))
+                    return item.category===updatedData[0].category&&((item.id)%4===0)
+                else
+                return item.category===updatedData[0].category&&((item.id)%5===0)
+                } )
                 .map((item,index)=>{
                     return(
                         <div className='home_display_card' key={index}>

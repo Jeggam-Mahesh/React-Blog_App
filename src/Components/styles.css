@@ -387,6 +387,9 @@ padding-bottom: 105px;
     li{
         text-decoration: none;
        }
+       .dynamic_comp{
+        width: 97vw;
+       }
     #dynamic_img{
         width: 90vw;
     }
