@@ -8,8 +8,6 @@ import Food from "./Food"
 // import NavBar from '../NavBar'
 import DynamicComp from "./DynamicComp"
 import Footer from "../Footer"
-// import GenericComp from "./GenericComp"
-
 const RoutesComp=()=>{
     return(
         <div>

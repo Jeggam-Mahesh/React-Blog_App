@@ -1,4 +1,6 @@
 import {  NavLink } from "react-router-dom"
+// import '../styles.css'
+import './styles.css'
 import './images.png'
 const NavBar=()=>{
     let cnt=1;
