@@ -15,7 +15,7 @@ const Bollywood=()=>{
 
          <NavBar/>
           <div className="card_parent">
-            <div className="card_container1">
+            <div className="card_container1"> 
                 
             <h1 className="topic_heading">Bollywood</h1>
             {data.filter((item)=>item.category==='bollywood').map((item,index)=>{

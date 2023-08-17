@@ -28,24 +28,24 @@ function menubox(){
             </button>
             <span id='menu_list'>
             <ul>
-                <li> <NavLink to='/'>Home</NavLink></li> 
-                <li><NavLink to='/bollywood'>Bollywood</NavLink></li>
-                <li><NavLink to='/technology'>Technology</NavLink></li>
-                <li><NavLink to='/hollywood'>Hollywood</NavLink></li>
-                <li> <NavLink to='/fitness'>Fitness</NavLink></li>
-                <li><NavLink to='/food'>Food</NavLink></li>
+                <li className="link_nav"> <NavLink to='/'>Home</NavLink></li> 
+                <li className="link_nav"><NavLink to='/bollywood'>Bollywood</NavLink></li>
+                <li className="link_nav"><NavLink to='/technology'>Technology</NavLink></li>
+                <li className="link_nav"><NavLink to='/hollywood'>Hollywood</NavLink></li>
+                <li className="link_nav"> <NavLink to='/fitness'>Fitness</NavLink></li>
+                <li className="link_nav"><NavLink to='/food'>Food</NavLink></li>
             </ul>
             </span>
         
            </div>
         
          <div id='navbar'>
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/bollywood'>Bollywood</NavLink>
-            <NavLink to='/technology'>Technology</NavLink>
-            <NavLink to='/hollywood'>Hollywood</NavLink>
-            <NavLink to='/fitness'>Fitness</NavLink>
-            <NavLink to='/food'>Food</NavLink>
+            <NavLink to='/' className='nav_link'>Home</NavLink>
+            <NavLink to='/bollywood' className='nav_link'>Bollywood</NavLink>
+            <NavLink to='/technology' className='nav_link'>Technology</NavLink>
+            <NavLink to='/hollywood' className='nav_link'>Hollywood</NavLink>
+            <NavLink to='/fitness' className='nav_link'>Fitness</NavLink>
+            <NavLink to='/food' className='nav_link'>Food</NavLink>
 
         </div>
         </div>

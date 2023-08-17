@@ -23,7 +23,7 @@ const RoutesComp=()=>{
                 <Route path='/fitness' element={<Fitness/>}/>
                 <Route path='/food' element={<Food/>}/>
                <Route path="/dynamicPage" element={<DynamicComp/>}/>
-               {/* <Route path='/generic' element={<GenericComp/>}/> */}
+              
                 
             </Routes>
            <Footer/>

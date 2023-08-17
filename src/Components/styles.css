@@ -8,17 +8,16 @@
     gap: 20px;
 }
 #navbar{
-    margin-left:40px;
-    margin-right: 40px;
+    margin-left:30px;
+    margin-right: 30px;
     display: flex;
     border-radius: 10px;
-   
+    background-color: #1e2b45;
+    
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
     border: 1px solid rgb(221, 221, 219);
     border-bottom: 5px solid rgb(213, 214, 212);
-    
-    /* background-color:rgb(23, 23, 11); */
     padding: 10px;
     padding-bottom: 20px;
 }
@@ -34,16 +33,23 @@ padding: 2px;
     margin-right: 10px;
     /* transform: matrix(0, -1, 1, 0, 0, 0); */
 } 
+.nav_link{
+    color: white;
+}
 a{
     text-decoration: none;
     font: 40px bolder;
     color: black;
+   
+}
+.active{
+    color: orange;
 }
 a:hover{
     /* border-bottom: 2px solid rgb(48, 161, 33); */
     text-decoration: underline;
     border-radius: 10px;
-    color: rgb(28, 102, 239);
+    color: rgb(211, 239, 28);
 }
 
 #menu_list{
@@ -67,6 +73,7 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+   
     gap: 10px;
     width: 98vw;
 }
@@ -215,6 +222,9 @@ padding-bottom: 105px;
    
 }
    /* ################# DYNAMIC ##########33 */
+   .the_siren_home{
+    color:Black;
+   }
    #get_start{
     border: 2px solid green;
     color: green;
@@ -233,16 +243,17 @@ padding-bottom: 105px;
     border-bottom:5px solid rgb(175, 174, 174) ;
    }
    .footer{
-    
-    margin: 20px;
-    margin-top: 4px;
-   
+    margin: 50px;
+    /* margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 1vh;
+   margin-bottom: 1vh; */
     padding-top: 30px;
     color: white;
     background-color: darkslategray;
     display: flex;
     justify-content: space-around;
- 
+    font-size:x-large;
     position: relative;
     z-index: 5;
     border-radius: 10px;
@@ -251,14 +262,17 @@ padding-bottom: 105px;
     text-decoration: underline;
     color: black;
    }
-  
+  #list{
+    text-align: left;
+    margin-left: -1vw;
+  }
    #intro{
     text-align: left;
-    width: 400px;
+    width:30vw;
    }
   
-   .link{
-    font-size:large;
+   .link_footer{
+    font-size:x-large;
     color: rgb(246, 241, 241);
    }
    
@@ -276,6 +290,14 @@ padding-bottom: 105px;
     gap: 20px;
   
    }
+   #dynamic_img{
+    width:29vw;
+    
+   }
+   .dynamic_content{
+    width:29vw;
+    text-align: left;
+   }
    .userIcon{
     /* margin-top: 10px; */
     display: flex;
@@ -285,7 +307,7 @@ padding-bottom: 105px;
     gap: 20px;
     border: 1px solid rgba(234, 229, 229, 0.826);
     /* border-bottom: 4px solid rgb(231, 228, 228) ; */
-   
+   width: 29vw;
    }
    .down{
     width: 25vw;
@@ -326,10 +348,7 @@ padding-bottom: 105px;
     background-color: white;
     width: 98vw; 
    }
-   .dynamic_content{
-    width:500px;
-    text-align: left;
-   }
+   
 @media screen and (min-width:300px) and (max-width:820px) {
     #home{
         justify-content: center;
@@ -367,57 +386,70 @@ padding-bottom: 105px;
         width: 90vw;
     }
     .footer{
-        margin-top: 20px;
-        margin-left: 20px;
+      margin-left: 4vw;
+      margin-right: 2vw;
+      
+        /* width: 100vw; */
   flex-direction: column;
   justify-content: center;
    align-items: center;
     }
+    
     #footerSocial{
        height: 70px;
-       margin-left: 20px;
+       /* margin-left: 20px; */
     }
     #the{
-        margin-left: 10vw;
+        /* margin-left: 10vw; */
+    }
+    
+    .link_nav{
+        text-decoration: none; 
+        border-bottom: 2px solid black;
     }
     h5{
         
-        width:90vw;
+        /* width: min-content; */
        padding: 20px;
         text-align:left ;
     }
     #intro{
-        width: 95vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: auto;
     }
     li{
         text-decoration: none;
        }
        .dynamic_comp{
-        width: 97vw;
+        width: 98vw;
        }
     #dynamic_img{
-        width: 90vw;
+        width: 95vw;
+        height: 50vh;
+        border-radius: 5px;
     }
     .dynamic_content{
-        width: 90vw;
+        width: 95vw;
     }
-    
+    .userIcon{
+        width:95vw
+    }
     ul{
         list-style-type: none;
        
     }
-    li{
-        border-bottom: 2px solid black;
-    }
+    
     #navbar{
     display: none;
    
     }
     .home_container{
         flex-direction: column; 
-        /* justify-content: center; */
+       
         align-items: center;
-        margin-left: 15px;
+        margin-left:2vw ;
     }
     .hm{
         margin-left: 30px;

@@ -15,13 +15,14 @@ const DynamicComp=()=>{
    const data=useContext(Store)
    console.log("storedata",data)
    const id_value=useLocation().state.index;
+   
    console.log("hello"+id_value)
    const updatedData=data[0].filter((item)=>item.id===id_value)
    console.log(updatedData)
     return(
         <div>
          <header>
-            <h1> <Link to ='/'>The<b>Siren</b></Link> </h1>
+            <h1> <Link class='the_siren_home' to ='/'>The<b>Siren</b></Link> </h1>
             <button id='get_start'>Get Started</button>
         </header>
         <div id='shareIcon'>
@@ -42,8 +43,9 @@ const DynamicComp=()=>{
             <span><b>Mahesh</b><p>July 15 2023</p></span>
             <img src={socialMediaIcon2} alt="not found" width='265px' height='60px'/>
         </div>
+        {/* width='500px' height='350px' */}
         <div className="dynamic_img">
-        <img  id='dynamic_img' src={updatedData[0].image} alt="not found" width='500px' height='350px'/>
+        <img  id='dynamic_img' src={updatedData[0].image}  alt="not found"  />
         </div>
        
         <div className="dynamic_content">
@@ -65,7 +67,7 @@ const DynamicComp=()=>{
         </div>
         
         <div className="backgrd">
-        <h1 className='topic_heading hm  backgrd'>More From Siren</h1>
+        <h1 className='topic_heading hm  '>More From Siren</h1>
         <div className="more_from">
         
             {
@@ -80,8 +82,7 @@ const DynamicComp=()=>{
                         <div className='home_display_card' key={index}>
                         <div className="card_image">
                         <Link to='/dynamicPage' state={{index:item.id}}> <img src={item.image} className="image_box" alt='not found' /></Link>
-                             {/* <img src={item.image} className="image_box" alt='not found'/> */}
-                             </div> 
+                         </div> 
                   <div className="card_content ">
                  <h1>{item.heading}</h1>
                      {item.discription.slice(0,150)}</div>

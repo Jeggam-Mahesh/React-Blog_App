@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import socialMediaIcon2 from './assets/socialMediaIcon2.png'
 const Footer = () => {
   return (
-    <>
+    <div className="footer_container">
       <div className="footer">
         <div id='intro'>
           <span id="the">The</span>
@@ -21,17 +21,17 @@ const Footer = () => {
         <div>
             <h2>Services</h2>
             <ul id='list'>
-                <li> <Link to='/' className="link">Home</Link></li> 
-                <li><Link to='/bollywood' className="link">Bollywood</Link></li>
-                <li><Link to='/technology' className="link">Technology</Link></li>
-                <li><Link to='/hollywood' className="link">Hollywood</Link></li>
-                <li> <Link to='/fitness' className="link">Fitness</Link></li>
-                <li><Link to='/food' className="link">Food</Link></li>
+                <li > <Link to='/' className='link_footer' >Home</Link></li> 
+                <li ><Link to='/bollywood'className='link_footer' >Bollywood</Link></li>
+                <li ><Link to='/technology' className='link_footer' >Technology</Link></li>
+                <li ><Link to='/hollywood' className='link_footer' >Hollywood</Link></li>
+                <li > <Link to='/fitness' className='link_footer'>Fitness</Link></li>
+                <li ><Link to='/food' className='link_footer'>Food</Link></li>
             </ul>
         </div>
         <div>
             <h2>Resources</h2>
-            <ul>
+            <ul id='list'>
             <li>Blog</li>
             <li>Help center</li>
             <li>careers</li>
@@ -39,7 +39,7 @@ const Footer = () => {
             </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Footer;
