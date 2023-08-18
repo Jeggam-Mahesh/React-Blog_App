@@ -20,9 +20,9 @@ const Home=()=>{
                 </div>
                
             </div>
-            <br></br>
+            {/* <br></br> */}
             <h1 className='topic_heading hm'>The Latest</h1>
-            <br></br>
+            {/* <br></br> */}
             <div className='home_latest'>
     
     { data.filter((item)=>{
@@ -44,7 +44,7 @@ const Home=()=>{
      </div>
      <div className="card_parent">
             <div className="card_container1">
-            <h1 className="topic_heading">Latest Articles</h1>
+            <h1 className="topic_heading ">Latest Articles</h1>
             {data.filter((item)=>(item.id)%8===0).map((item,index)=>{
                 return (
                 
@@ -89,7 +89,6 @@ const Home=()=>{
                     }
                   
                    </div>
-           
            </div>
            <h1 className='topic_heading hm'>Latest Stories</h1>
             <div className='home_latest'>

@@ -75,7 +75,7 @@ a:hover{
     justify-content: center;
    
     gap: 10px;
-    width: 98vw;
+    width: 97vw;
 }
 
 #hm_cnt2{
@@ -98,7 +98,7 @@ a:hover{
     background-image: url('https://images.hindustantimes.com/img/2022/04/01/550x309/RRR-Movie-Review_1648825470847_1648825479894.jpg');
     
     height: 500px;
-    width: 55vw;
+    width: 58vw;
 }
 .box2{
     background-image: url('https://gmo-research.com/application/files/5716/6080/5815/Quantum_Computing_Image.png');
@@ -108,14 +108,14 @@ a:hover{
 }
 
 .home_latest{
-    margin: 30px;
+    /* margin: 30px; */
     display: flex;
     /* gap: 100px; */
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .hm{
-    margin-left: 65px;
+    margin-left: 5vw;
 }
 .hm_last{
     background-color: rgb(239, 241, 241);
@@ -453,11 +453,13 @@ padding-bottom: 105px;
         margin-left:2vw ;
     }
     .hm{
-        margin-left: 30px;
+        margin-left: -45vw;
     }
     .home_latest{
-        margin-left: 30px;
+        /* margin-left: 30px; */
         gap: 20px;
+        justify-content: center;
+        align-items: center;
     }
     .box{
         width: 95vw;
