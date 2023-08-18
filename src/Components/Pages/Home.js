@@ -90,14 +90,16 @@ const Home=()=>{
                   
                    </div>
            </div>
-           <h1 className='topic_heading hm'>Latest Stories</h1>
-            <div className='home_latest'>
+           
+            <div className='home_latest '>
+            <h1 className='topic_heading hm2'>Latest Stories</h1>
                 {
                     data.filter((item)=>(item.id)%20===0).map((item,index)=>{
                         return(
-                            <div className="card_content hm_last" key={index}>
-                            <h1>{item.heading}</h1>
+                            <div className="card_content " key={index}>
+                            <div className='hm_last'> <h1>{item.heading}</h1>
                                 {item.discription}</div>
+                           </div>
                              
                         )
                     })

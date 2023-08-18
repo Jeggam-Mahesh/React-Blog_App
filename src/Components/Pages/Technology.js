@@ -49,7 +49,8 @@ const Technology=()=>{
                     }
                       <div className="advertisement">
                         
-                        <img  className='Adds' src='https://i.pinimg.com/originals/27/94/6a/27946a99657cddf0cbde79a7e4e6f51f.gif' alt="not found" width='400px' height='600px'/>
+                        {/* <img  className='Adds' src='https://i.pinimg.com/originals/27/94/6a/27946a99657cddf0cbde79a7e4e6f51f.gif' alt="not found" width='400px' height='600px'/> */}
+                        <img className='Adds' src='https://i.pinimg.com/originals/27/94/6a/27946a99657cddf0cbde79a7e4e6f51f.gif' alt="not found" />
                         </div>
                    </div>
            
