@@ -90,9 +90,9 @@ const Home=()=>{
                   
                    </div>
            </div>
-           
+           <h1 className='topic_heading hm2'>Latest Stories</h1>
             <div className='home_latest '>
-            <h1 className='topic_heading hm2'>Latest Stories</h1>
+            
                 {
                     data.filter((item)=>(item.id)%20===0).map((item,index)=>{
                         return(
