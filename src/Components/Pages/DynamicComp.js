@@ -67,7 +67,7 @@ const DynamicComp=()=>{
         </div>
         
         <div className="backgrd">
-        <h1 className='topic_heading   '>More From Siren</h1>
+        <h1 className='topic_heading hm3  '>More From Siren</h1>
         <div className="more_from">
         
             {
